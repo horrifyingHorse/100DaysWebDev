@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>Online search using Form:</h1>
+    <form action="https://www.google.com/search" method="get">
+        <label>
+            Enter text to Search Google:
+            <input type="text" name="q">
+        </label>
+    </form>
+    <form action="http://www.youtube.com/results">
+        <label>
+            youtube Search:
+            <input name="search_query" type="text">
+        </label>
+    </form>
+
+    <h2>Form:</h2>
+    <form action="t0909">
+        <p>
+            <label for="Username">Enter Username:</label>
+            <input type="text" placeholder="w/L ?" id="Username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter Password:</label>
+            <input type="password" placeholder="Password" id="password" name="password">
+        </p>
+        <p>
+            <label for="color">Pick a Color:</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label>
+                Enter a Number:
+                <input type="number" placeholder="9" name="number" min="1" max="100">
+            </label>
+        </p>
+        <button type="button">the Button</button>
+        <button>Submit</button>
+        <input type="submit" value="Input Submit">
+    </form>
+
+    <h2>More Inputs</h2>
+    <form action="0909">
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">Agree to Terms</label>
+        <p>
+            <label for="r1">radiobutton1</label>
+            <input type="radio" name="r1" id="r1" value="1">
+            <label for="r2">radiobutton2</label>
+            <input type="radio" name="r1" id="r2" value="2">
+            <label for="r3">radiobutton3</label>
+            <input type="radio" name="r1" id="r3" value="3">
+        </p>
+
+        <p>
+            To link radio buttons the name atribute for all should be same.
+        </p>
+
+        <p>
+            <label for="s1">Select dropdown method</label>
+            <select name="s1" id="s1">
+                <option value="1">option1</option>
+                <option value="2">option2</option>
+                <option value="3">option3</option>
+                <option value="4" selected>option4</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="amnt">Enter Amnt:</label>
+            <input type="range" name="amount" id="amnt" min="1" max="1000" step="1">
+        </p>
+
+        <p>
+            <label for="comment">Any Comments?</label>
+            <textarea name="comment" id="comment" cols="20" rows="2"></textarea>
+        </p>
+
+        <button>submit</button>
+    </form>
+
+    <h2>Validation:</h2>
+    <form action="t0909">
+        <p>
+            <label for="username">Enter Username:</label>
+            <input type="text" required name="usname" id="username" minlength="3" maxlength="30">
+        </p>
+        <p>
+            <label for="mail">Enter Email:</label>
+            <input type="email" name="email" id="mail" required>
+        </p>
+        <button type="submit">Submut</button>
+    </form>
+
+</body>
+
+</html>
