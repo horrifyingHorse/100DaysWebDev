@@ -1,0 +1,32 @@
+h1 {
+    color:turquoise;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: whitesmoke underline wavy;
+    letter-spacing: 30px;
+    font-size: 50px;
+    font-family: fantasy, monospace;
+}
+
+button {
+    color: whitesmoke;
+    background-color: black;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+p {
+    color: crimson;
+    background-color: bisque;
+    text-align: right;
+}
+
+body {
+    background-color: #1c3acb;
+}
+
+a {
+    text-decoration: none;
+    background-color: yellow;
+    line-height: 2.5;
+}
