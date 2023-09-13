@@ -1,0 +1,78 @@
+#section1 {
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(166, 166, 166, 0.2);
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: #a6a6a600;
+    opacity: 0.6;
+}
+
+div {
+    display: inline-block;
+}
+
+#right {
+    width: 100px;
+    height: 100px;
+    border: 4px solid;
+    background-color: gray;
+}
+
+#static #middle {
+    width: 100px;
+    height: 100px;
+    border: 4px solid;
+    background-color: orange;
+    position: static;
+    top: 100px;
+}
+
+#relative #middle {
+    width: 100px;
+    height: 100px;
+    border: 4px solid;
+    background-color: orange;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute #middle {
+    width: 100px;
+    height: 100px;
+    border: 4px solid;
+    background-color: orange;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#fixed #middle {
+    width: 100px;
+    height: 100px;
+    border: 4px solid;
+    background-color: orange;
+    position: fixed;
+    top: 200px;
+    left: 100px;
+}
+
+#left {
+    width: 100px;
+    height: 100px;
+    border: 4px solid;
+    background-color: gray;
+}
+
+#inline {
+}

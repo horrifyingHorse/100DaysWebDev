@@ -1,0 +1,18 @@
+body {
+    font-family: Oswald;
+}
+
+section {
+    width: 80%;
+    height: 800px;
+    background-image: url("https://i.redd.it/john-oliver-3-v0-j0zz2k9kfk6b1.jpg?s=1a13d434d6cc9e68ad0496d47732bcb30acefcd0");
+    margin: 0 auto;
+    background-size: cover;
+    background-position: top;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-weight: 400;
+}
