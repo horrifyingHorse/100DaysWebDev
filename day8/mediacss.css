@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+ul, li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    border: 1px solid red;
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* @media (min-width: 600px) and (max-width: 800px) {
+    h1 {
+        color: red;
+    }
+} */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+        transition: 2s;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* @media (orientation: landscape) {
+    body {
+        background-color: cyan;
+    }
+} */
